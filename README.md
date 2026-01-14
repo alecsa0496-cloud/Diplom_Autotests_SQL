@@ -70,14 +70,11 @@ python test_order.py
 ```
 
 ##### Структура проекта
-проект/
-├── configuration.py    # Настройки URL и эндпоинтов
-
-├── data.py            # Тестовые данные заказа
-
-├── sender_stand_request.py  # Функции для работы с API
-├── test_order.py      # Автотест создания и получения заказа
-└── README.md          # Документация (этот файл)
+* configuration.py - конфигурация URL и API эндпоинтов
+* data.py - тестовые данные для создания заказа
+* sender_stand_request.py - функции для отправки HTTP-запросов
+* test_order.py - автотест: создание и получение заказа
+* README.md - документация проекта
 
 ### Стек для выполнения проекта
 * SQL (PostgreSQL)
