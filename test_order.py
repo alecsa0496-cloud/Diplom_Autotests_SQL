@@ -20,3 +20,4 @@ def test_order_creation_and_retrieval():
     order_data = order_response.json()
     print("Данные заказа:")
     print(order_data)
+    
